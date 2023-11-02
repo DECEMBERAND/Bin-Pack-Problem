@@ -78,7 +78,7 @@ struct PackParam
 };
 
 
-struct result
+struct Result
 {
     bool success; // ÊÇ·ñ³É¹¦
     PackUnit packUnit;

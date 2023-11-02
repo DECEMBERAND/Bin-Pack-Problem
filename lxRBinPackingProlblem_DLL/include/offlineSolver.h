@@ -15,7 +15,7 @@ public:
 	// 加载现有垛型
 	void loadCurrentStack(const std::vector<PackUnit>& m_PackUnits) override;
 
-    result BPP_Solver(const PackBin& m_bin, const Unit& m_item, const PackParam& m_packparam) override/* { return false; }*/;
+    Result BPP_Solver(const PackBin& m_bin, const Unit& m_item, const PackParam& m_packparam) override/* { return false; }*/;
 
 };
 

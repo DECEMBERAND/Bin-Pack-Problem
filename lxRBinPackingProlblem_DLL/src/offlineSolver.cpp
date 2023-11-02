@@ -14,8 +14,8 @@ void offlineSolver::loadCurrentStack(const std::vector<PackUnit>& m_PackUnits)
 {
 }
 
-result offlineSolver::BPP_Solver(const PackBin& m_bin, const Unit& m_item, const PackParam& m_packparam)
+Result offlineSolver::BPP_Solver(const PackBin& m_bin, const Unit& m_item, const PackParam& m_packparam)
 {
-	result result;
+	Result result;
 	return result;
 }

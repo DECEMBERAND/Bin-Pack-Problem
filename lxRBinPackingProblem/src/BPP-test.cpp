@@ -21,11 +21,11 @@ void testOnlineSolver(void)
     // 创建在线混码对象指针
 	std::shared_ptr<onlineSolver> onlineSolverPtr = std::make_shared<onlineSolver>(Bin, Item, Packparam);
 
-	std::vector<result> results;
+	std::vector<Result> results;
 	// 调用算法
 	while(!onlineSolverPtr->getRunningState())
 	{
-	   result result = onlineSolverPtr->BPP_Solver(Bin, Item, Packparam);
+	   Result result = onlineSolverPtr->BPP_Solver(Bin, Item, Packparam);
 	   results.push_back(result);
 	}
 

@@ -38,7 +38,7 @@ public:
 	    virtual void loadCurrentStack(const std::vector<PackUnit>& m_PackUnits) = 0;
 
 	    // 求解器
-	    virtual result BPP_Solver(const PackBin& m_bin, const Unit& m_item, const PackParam& m_packparam) = 0;
+	    virtual Result BPP_Solver(const PackBin& m_bin, const Unit& m_item, const PackParam& m_packparam) = 0;
 
 		// 获取程序运行状态
 		bool getRunningState() { return mbStop; }
